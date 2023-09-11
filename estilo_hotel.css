@@ -1,0 +1,31 @@
+div{
+    height: 100vh;
+}
+.titulo{
+    text-align: center;
+}
+
+.logo_hotel{
+    width: 10%;
+}
+
+.btmenu{
+    width: 18%;
+    height: 2%;
+}
+.btbusca{
+    width: 18%;
+    height: 2%;
+}
+.btcidade{
+    width: 18%;
+    height: 2%;
+}
+.btlogin{
+    width: 18%;
+    height: 2%;
+}
+.btfav{
+    width: 18%;
+    height: 2%;
+}
