@@ -1,14 +1,22 @@
-div{
-    height: 100vh;
+body {
+    margin: 0 auto;
 }
+.topo{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo{
     text-align: center;
 }
 
 .logo_hotel{
-    width: 10%;
+    width: 20%;
+    margin: 0 auto;
+    display: inline-block;
 }
-
 .btmenu{
     width: 18%;
     height: 2%;
@@ -28,4 +36,27 @@ div{
 .btfav{
     width: 18%;
     height: 2%;
+}
+.imagem1{
+    width: 47%;
+}
+.imagem2{
+    width: 47%;
+}
+.mar{
+    color: rgb(0, 195, 255);
+}
+.predios{
+    color:darkblue;
+}
+.resort1{
+    width: 19%;
+    height: 494px;
+}
+.resort2{
+    width: 39%;
+}
+.resort3{
+    width: 35%;
+    height: 494px;
 }
