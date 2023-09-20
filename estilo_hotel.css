@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
 }
 .topo{
-    height: 15vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,25 +18,19 @@ body {
     display: inline-block;
 }
 .btmenu{
-    width: 18%;
+    width: 33%;
     height: 2%;
 }
-.btbusca{
-    width: 18%;
-    height: 2%;
-}
+
 .btcidade{
-    width: 18%;
+    width: 33%;
     height: 2%;
 }
 .btlogin{
-    width: 18%;
+    width: 33%;
     height: 2%;
 }
-.btfav{
-    width: 18%;
-    height: 2%;
-}
+
 .imagem1{
     width: 47%;
 }
@@ -47,7 +41,7 @@ body {
     color: rgb(0, 195, 255);
 }
 .predios{
-    color:darkblue;
+    color:rgb(0, 195, 255);
 }
 .resort1{
     width: 19%;
@@ -59,4 +53,20 @@ body {
 .resort3{
     width: 35%;
     height: 494px;
+}
+
+.piscina{
+    color: rgb(0, 195, 255);
+}
+
+.piscina1{
+    width: 30%;
+}
+
+.piscina2{
+    width: 28%;
+}
+
+.piscina3{
+    width: 66vh;
 }
