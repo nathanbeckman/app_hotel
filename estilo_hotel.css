@@ -1,5 +1,7 @@
 body {
-    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 }
 .topo{
     height: 30vh;
@@ -18,60 +20,103 @@ body {
     display: inline-block;
 }
 .btmenu{
-    width: 33%;
-    height: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
 }
 
-.btcidade{
-    width: 33%;
-    height: 2%;
-}
 .btlogin{
-    width: 33%;
-    height: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
 }
 
 .imagem1{
-    width: 47%;
+    width: 50vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    
 }
+
 .imagem2{
-    width: 47%;
+    width: 50vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
+
+.praia{
+    margin-left: 26%;
+    margin-right: 20%;
+    width: 50%;
+}
+
 .mar{
-    color: rgb(0, 195, 255);
+    margin-left: 27%;
+    width: 50%;
 }
+
+.descpraia{
+    margin-left: 26%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+}
+
 .predios{
-    color:rgb(0, 195, 255);
+    margin-left: 26%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
 }
-.resort1{
-    width: 19%;
-    height: 494px;
-}
-.resort2{
-    width: 39%;
-}
+
 .resort3{
-    width: 35%;
-    height: 494px;
+    width: 28%;
+    height: 25%;
+    width: 60vh;
 }
 
 .piscina{
-    color: rgb(0, 195, 255);
-}
-
-.piscina1{
-    width: 30%;
-}
+    margin-left: 26%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;}
 
 .piscina2{
-    width: 28%;
-}
+    margin-left: 28%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;}
 
 .piscina3{
-    width: 66vh;
+    margin-left: 28%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
 }
 
-.menu{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperswide.com%2Fgoogle_3-wallpapers.html&psig=AOvVaw0BzJcycadlEmdDzqThuFQl&ust=1695755827648000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCiqvK8xoEDFQAAAAAdAAAAABAD");
+.piscinadesc{
+    margin-left: 28%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
 }
 
+.reservas{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log{
+    width: 60vh;
+}
+
+.menu-caixa{
+    margin-top: 20%;
+    margin-left: 24%;
+    margin-right: 25%;
+    text-align: center;
+}
