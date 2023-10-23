@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="estilo_hotel.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <h1>Carrinho de Compras</h1>
+    
+    <!-- Lista de itens disponíveis -->
+    <h2>Itens disponíveis para compra:</h2>
+    <ul>
+        <li>Pacote 1 - R$ 100.00 <button onclick="adicionarItem('Pacote 1', 10.00)">Adicionar ao Carrinho</button></li>
+        <li>Pacote 2 - R$ 150.00 <button onclick="adicionarItem('Pacote 2', 15.00)">Adicionar ao Carrinho</button></li>
+        <li>Pacote 3 - R$ 200.00 <button onclick="adicionarItem('Pacote 3', 20.00)">Adicionar ao Carrinho</button></li>
+    </ul>
+
+    <!-- Carrinho de compras --> 
+
+    
+    <h2>Seu Carrinho de Compras:</h2>
+    <div class="carrinho">
+        <ul id="itens-carrinho">
+            <!-- Itens do carrinho serão adicionados aqui -->
+        </ul>
+        <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+    </div>
+
+    <script>
+        // Função para adicionar um item ao carrinho
+        function adicionarItem(nome, preco) {
+            // Encontre a lista de itens do carrinho e o total do carrinho
+            var itensCarrinho = document.getElementById("itens-carrinho");
+            var totalCarrinho = document.getElementById("total-carrinho");
+
+            // Crie um novo elemento de lista para o item
+            var novoItem = document.createElement("li");
+            novoItem.textContent = nome + " - R$ " + preco.toFixed(2);
+
+            // Adicione o item à lista de itens do carrinho
+            itensCarrinho.appendChild(novoItem);
+
+            var totalAnterior = parseFloat(totalCarrinho.textContent);
+            totalCarrinho.textContent = (totalAnterior + preco).toFixed(2);
+        }
+    </script>
+</body>
+</html>

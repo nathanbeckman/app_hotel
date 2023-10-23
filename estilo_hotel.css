@@ -31,6 +31,12 @@ body {
     width: 50%;
 }
 
+.btcar{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
 .imagem1{
     width: 50vh;
     margin-left: 25%;
@@ -119,4 +125,30 @@ body {
     margin-left: 24%;
     margin-right: 25%;
     text-align: center;
+}
+
+ul {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 0;
+}
+li {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 0;
+}
+
+/* Estilos para o carrinho */
+.carrinho {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
