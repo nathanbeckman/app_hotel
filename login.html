@@ -13,29 +13,18 @@
     <head>
         <title>Tela de Login</title>
     </head>
-    <body>
-        <form action="bd.php" method="post">
-        <ol>
-            <ul>Nome: <input type="text" name="nome"></ul>
-            <h1></h1>
-            <ul>E-mail: <input type="text" name="E-mail"></ul>
-            <h1></h1>
-            <ul>Senha: <input type="text" name="Senha"></ul>
-            <h1></h1>
-            <ul><input type="submit" value="Enviar"></ul>
-        </ol>
-        </form>
-    </body>
-    <body class="log">
-        <h1>Tela de Login</h1>
-        <form>
-            <label for="user">Nome de usuário:</label> <!--o label representa uma legenda para melhorar a acessibilidade de um item de interface do usuário-->
-            <input type="text" id="user" name="user" required><br><br> <!--INSERE O NOME DE USUARIO-->
-            
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required><br><br> <!--INSERE A SENHA-->
-    
-            <a href="entrar.html"><input type="submit" value="Entrar" class="enter"></a>
-        </form>
-    </body> 
+        <h2>Formulário de Login</h2>
+    <form action="processa_login.php" method="post" class="log">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" name="username" required><br><br>
+
+        <label for="username">E-mail:</label>
+        <input type="text" name="username" required><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required><br><br>
+
+        <input type="submit" value="Entrar">
+        
+    </form>
 </html>
